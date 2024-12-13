@@ -1,4 +1,4 @@
-# SLAM Implementation
+# Monocular 3D Reconstruction and Camera Pose Estimation
 
 ## Technologies Used
 - **OpenCV**: For image processing, feature extraction, and keypoints matching.
