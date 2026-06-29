@@ -1,0 +1,6 @@
+numpy
+opencv-python
+scikit-image
+PySDL2
+PyOpenGL
+pypangolin

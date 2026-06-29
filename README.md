@@ -30,6 +30,23 @@
 ### Real-time Visualization
 - Real-time frame processing is achieved using SDL2 for a seamless display.
 
+## Installation
+
+1. Install [uv](https://docs.astral.sh/uv/getting-started/installation/) if you haven't already:
+   ```bash
+   curl -LsSf https://astral.sh/uv/install.sh | sh
+   ```
+
+2. Create a virtual environment and install dependencies:
+   ```bash
+   uv venv
+   source .venv/bin/activate
+   uv pip install -r requirements.txt
+   ```
+
+> **Note:** `pypangolin` must be built from source and is not available on PyPI.
+> Follow the [pypangolin install instructions](https://github.com/uoip/pangolin) before running the above.
+
 ## Key Files
 - **`slam.py`**: Main script to process video frames and manage SLAM pipeline.
 - **`frame.py`**: Handles feature extraction, matching, and pose estimation.
