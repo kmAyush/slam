@@ -1,4 +1,9 @@
 # Monocular 3D Reconstruction and Camera Pose Estimation
+Taking a video input, detecting good features to track, then calibrating camera properties to find 3d points followed by display in pangolin 3d display.
+
+Top-down view of 3d points
+
+[Top-down view](recordings/topdown.gif)
 
 ## Technologies Used
 - **OpenCV**: For image processing, feature extraction, and keypoints matching.
