@@ -3,7 +3,11 @@ Taking a video input, detecting good features to track, then calibrating camera 
 
 Top-down view of 3d points
 
-[Top-down view](recordings/topdown.gif)
+![Top-down view](recordings/topdown.gif)
+
+Diagonal view of 3d points
+
+![Diagonal view](recordings/diagonal.gif)
 
 ## Technologies Used
 - **OpenCV**: For image processing, feature extraction, and keypoints matching.
