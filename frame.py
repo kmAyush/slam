@@ -141,7 +141,7 @@ class Frame(object):
     def __init__(self, ptmap, img, K):
         self.K = K
         self.Kinv = np.linalg.inv(self.K)
-        self.pose = IRt
+        self.pose = IRt.copy()
 
         pts, self.des = extract(img)
         self.pts = normalize(self.Kinv, pts)
